@@ -16,7 +16,7 @@ LinkingTo: Rcpp, RcppArmadillo
 URL: https://vingioia90.github.io/SCM/
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2025-05-27 10:34:13 UTC; mf15002
+Packaged: 2025-05-27 11:01:47 UTC; mf15002
 Author: Vincenzo Gioia [aut, cre],
   Matteo Fasiolo [aut]
 Maintainer: Vincenzo Gioia <matteo.fasiolo@gmail.com>
