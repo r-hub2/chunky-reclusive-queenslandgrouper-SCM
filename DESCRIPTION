@@ -1,0 +1,22 @@
+Package: SCM
+Title: Smoothing for Covariance Matrix Modelling
+Date: 2025-05-24
+Version: 0.0.1
+Authors@R: c(person("Vincenzo", "Gioia", email = "matteo.fasiolo@gmail.com", role = c("aut","cre")), 
+             person("Matteo", "Fasiolo", email = "gioia.vincenzo@spes.uniud.it", role = c("aut")))
+Description: The package offers methods for fitting multivariate Gaussian additive models, where the unconstrained entries of a covariance matrix parametrization are allowed to vary with smooth functions of the covariates. The model fitting routines are those of the 'mgcv' package, while the diagnostic and model visualising tools of the 'mgcViz' package can be used. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: mgcv
+Imports: stringr, Rcpp(>= 1.0.6), stats, mvnfast, Matrix
+Suggests: fields, knitr, rmarkdown
+LinkingTo: Rcpp, RcppArmadillo
+URL: https://vingioia90.github.io/SCM/
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2025-05-27 10:34:13 UTC; mf15002
+Author: Vincenzo Gioia [aut, cre],
+  Matteo Fasiolo [aut]
+Maintainer: Vincenzo Gioia <matteo.fasiolo@gmail.com>
